@@ -1,3 +1,9 @@
+# SQLite database
+db.sqlite3
+
+# PyCharm internal directory
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
