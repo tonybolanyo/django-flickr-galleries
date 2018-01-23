@@ -119,3 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Flickr API Settings
+
+FLICKR_USERID = os.environ.get('FLICKR_USERID', '')
+FLICKR_API_KEY = os.environ.get('FLICKR_API_KEY', '')
+FLICKR_SECRET_KEY = os.environ.get('FLICKR_SECRET_KEY', '')
